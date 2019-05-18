@@ -1,0 +1,186 @@
+
+
+body{
+	font-family: arial;
+	font-size: 12px;
+	background-image: url("tuyet.jpg");
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+#bg{
+	border: 3px solid white ;
+	width: 60%;
+	background-color: white;
+}
+#images{
+	background-image:url("123.jpg") ;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover; 
+	width: 100% ;
+	height: 393px;
+}
+#head{
+	width: 100%;
+	height: 426px;
+}
+#body{
+	width: 100%;
+	height: 872px;
+}
+#footer{
+	background-color: #555557;
+	width: 100%;
+	height: 50px;
+}
+#menubar{
+	background-position: bottom;
+}
+#leftmenu{
+	width: 22%;
+	height: 100%;
+	float: left;
+}
+#centermenu{
+	background-color: white;
+	width: 56%;
+	height: 100%;	
+
+	float: left;
+}
+#rightmenu{
+	width: 22%;
+	height: 100%;
+	float: right;
+}
+.menubar{
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 25px;
+	background-image: url(menu_bar.gif);
+	text-align: center;
+	color: white;
+}
+.tbbar{
+	width: 100%;
+	border-width: 0.1px;
+	border-style: solid;
+	border-color: black;
+}
+td:hover{
+	color: red;
+}
+#text{
+	font-style: oblique;
+	padding: 10px 10px 10px 10px;
+	text-align:justify ;
+	font-size: 10px ;
+	color: white ;
+	border-radius: 14px;
+	width: 90%;height: 52px;
+	background-color: #F4AA71;
+}
+.left{
+	width: 94%;
+	background-image: url(main_bar_left.gif);
+	clear: both;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	padding-left : 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+.div1{
+	height: 170px;
+	width: 94%;
+	text-align: left;
+	color: orange;
+}
+.div2{
+	height: 170px;
+	width: 94%;
+	text-align: left;
+	color: orange;
+	text-align: right;
+}
+
+.leftmenubar{
+	background-image: url(main_bar_left.gif);
+	height: 15px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 7px 0px 4px 7px ;
+	color: white;
+	text-align: left;
+}
+.rightmenubar{
+	background-image: url(main_bar_right.gif);
+	height: 15px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 7px 9px 4px 7px ;
+	color: white;
+	text-align: right;
+	}
+#menu{
+	height: 20px;
+	width: auto;
+	background-color: #555557; 
+	padding-top: 12px; 	
+}
+#line{
+	width: 100%;
+	height: 3px;
+	background-color: orange;
+}
+.item{
+	color: orange;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: solid 1px;
+}
+.clean{
+	clear: : both;
+}
+.textct{
+	color: black;
+	background-color: white;
+	width: 65%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	padding-left: 15px;
+	text-align: justify; 
+}
+.imgct{
+	background-color: white;
+	width: 31%;
+	height: 105px;
+	float: left;
+	display: inline-block;
+}
+#contens{
+	background-color:white ; 
+	height: 100px;
+	width: 100px;
+}
+.item p:hover{
+	color: red;
+}
+.item p{
+	margin: 0px;
+}
+.tbstyle{
+	height: 100%;
+	width: 100%;
+	border-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#fttext{
+	padding-top: 14px;
+	color: white;
+}

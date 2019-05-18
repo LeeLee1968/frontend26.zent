@@ -1,0 +1,27 @@
+div{
+	
+	background-color: #f2f2f2;
+}
+#div1{
+	height: 154px; 
+	width: 41%;
+	float: left;
+}
+#div2{
+
+	height: 154px;
+	width: 10%;
+	float: left;
+}
+a{
+	color: black;
+	font-weight: bolder;
+}
+a:link{
+	text-decoration: none;
+	
+}
+a:hover{
+	text-decoration: underline;
+	color:#36BCE2;
+}

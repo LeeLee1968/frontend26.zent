@@ -1,0 +1,45 @@
+p{
+	color: orange;
+}
+.Money{
+	font-weight: bold;
+	color: red; 
+}
+p:hover{
+	color: blue; 
+}
+div:hover{
+	border-color: orange;
+}
+div{
+	margin-right: 10px;
+	border-spacing:10px;
+	border: groove;
+	border-color: white;
+	height: 150px;
+	width: 140px;
+}
+#div1{
+	
+	float: left;
+}
+#div2{
+	
+	float: left;
+}
+#div3{
+
+	float: left;
+}
+#div4{	
+
+	float: left;
+}
+#div5{	
+
+	float: left;
+}
+#div6{	
+
+	float: left;
+}
