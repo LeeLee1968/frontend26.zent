@@ -3,7 +3,7 @@
 body{
 	font-family: arial;
 	font-size: 12px;
-	background-image: url("tuyet.jpg");
+	background-image: url("img2/tuyet.jpg");
 	background-repeat: repeat-y;
 	background-size: cover;
 }
@@ -13,7 +13,7 @@ body{
 	background-color: white;
 }
 #images{
-	background-image:url("123.jpg") ;
+	background-image:url("img2/123.jpg") ;
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover; 
@@ -57,7 +57,7 @@ body{
 	background-size: cover;
 	background-repeat:no-repeat;
 	height: 25px;
-	background-image: url(menu_bar.gif);
+	background-image: url(img2/menu_bar.gif);
 	text-align: center;
 	color: white;
 }
@@ -82,7 +82,7 @@ td:hover{
 }
 .left{
 	width: 94%;
-	background-image: url(main_bar_left.gif);
+	background-image: url(img2/main_bar_left.gif);
 	clear: both;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -107,7 +107,7 @@ td:hover{
 }
 
 .leftmenubar{
-	background-image: url(main_bar_left.gif);
+	background-image: url(img2/main_bar_left.gif);
 	height: 15px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -116,7 +116,7 @@ td:hover{
 	text-align: left;
 }
 .rightmenubar{
-	background-image: url(main_bar_right.gif);
+	background-image: url(img2/main_bar_right.gif);
 	height: 15px;
 	background-repeat: no-repeat;
 	background-size: contain;
