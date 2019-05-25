@@ -1,0 +1,50 @@
+#menu{
+width: 100%;
+height: 40px;
+background-color: #71CA56;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+#menu li{
+list-style: none;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+background-color: #71CA56;
+height: 100%;
+line-height: 40px;
+border-right: 1px solid white;
+position: relative;
+}
+#menu li a{
+text-decoration: none;
+color: white;
+}
+#menu li:hover a{
+
+}
+#menu li:hover{
+cursor: pointer;
+background-color: #437933;
+}
+.submenu{
+display: none;
+}
+#menu li:hover .submenu{
+display: block;
+}
+
+.submenu{
+width: 200px;
+position: absolute;
+top:40px;
+left:-40px;
+
+}
+.submenu li{
+clear: both;
+width: 100px;
+border-right: none;
+border-bottom: 1px solid white;
+
+}
