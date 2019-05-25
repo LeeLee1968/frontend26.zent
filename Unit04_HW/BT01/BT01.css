@@ -2,8 +2,7 @@ body{
 	background-image: url("../Images/bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: auto;
-	width: 100%;
+
 }
 #head1{
 	padding-top: 20px; 
@@ -12,18 +11,21 @@ body{
 	padding-left: 20px; 
 	float: left;
 }
+#head1 h1{
+	font-family: Arial;
+}
 .li1{
 	margin-top: 5px; 
 }
 #headmenu{
 	height: 100px;
-	width: 50%;
+	width: 78%;
 	float: left;
 }
 #signin{
 	text-align: justify;
 	height: auto;
-	width: 50%;
+	width: 22%;
 	float: left;
 }
 #body{
@@ -36,13 +38,13 @@ body{
 }
 #menu{
 	height: auto;
-	width: 11%;
+	width: 15%;
 	float: left;
 
 }
 #imgdiv{
 	height: auto;
-	width: 60%;
+	width: 85%;
 	float: left;
 }
 #footer{
@@ -206,4 +208,24 @@ p
 }
 #footermenu li a:hover{
 	color: red;
+}
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  border-radius: 50px;
+}
+@-webkit-keyframes example {
+  0%   {background-color:orange; left:0px; top:0px;}
+  25%  {background-color:yellow; left:1000px; top:1000px;}
+  50%  {background-color:blue; left:0px; top:1000px;}
+  75%  {background-color:green; left:1000px; top:1000px;}
+  100% {background-color:red; left:1000px; top:0px;}
+  25% {background-color:white; left:1000px; top:0px;}
+
 }
