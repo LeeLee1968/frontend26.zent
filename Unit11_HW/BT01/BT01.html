@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="BT01.css">
+</head>
+<body>
+	<form action="" method="post">
+		<table>
+			<tr>
+				<td>Họ và tên<span class="required"> *</span>:</td>
+				<td>
+					<input id="name" class="input" type="text" name="hoVaTen" value="" placeholder="Nhập họ tên..."/>
+				</td>
+				<td id="err-name" class="err"></td>
+			</tr>
+			<tr>
+				<td>Giới tính<span class="required"> *</span>:</td>
+				<td>
+					<input type="radio" name="gioiTinh" value="Nam" placeholder=""/>Nam
+					<input type="radio" name="gioiTinh" value="Nu" placeholder=""/>Nữ
+				</td>
+			</tr>
+			<tr>
+				<td>Email<span class="required"> *</span>:</td>
+				<td>
+					<input id="email" class="input" type="text" name="email" value="" placeholder="Nhập email..."/>
+				</td>
+				<td id="err-mail" class="err"></td>
+			</tr>
+			<tr>
+				<td>Số điện thoại<span class="required"> *</span>:</td>
+				<td>
+					<input id="phone" class="input" type="text" name="sdt" value="" placeholder="Nhập số điện thoại..."/>
+				</td>
+				<td id="err-phone" class="err"></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu<span class="required"> *</span>:</td>
+				<td>
+					<input id="pass" type="password" class="input" name="matKhau" value="" placeholder=""/>
+				</td>
+				<td id="err-pass" class="err"></td>
+			</tr>
+			<tr>
+				<td>Xác nhận mật khẩu<span class="required"> *</span>:</td>
+				<td>
+					<input id="checkpass" type="password" class="input" name="matKhau" value="" placeholder=""/>
+				</td>
+				<td id="err-checkpass" class="err"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button class="submit" onclick="getInfo(); return false";>Gửi thông tin</button>
+					<button class="submit" onclick="reset()";>Xóa trắng</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script src="BT01.js"></script>
+</body>
+</html>
