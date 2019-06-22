@@ -1,30 +1,48 @@
-*{
-	margin: 0;
-	padding: 0;
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+p{
+  text-align: left;
 }
 
-form{
-	width: 700px;
-	margin: 0 auto;
-	border: 1px solid #ccc;
-	padding-left: 10%;
+.accordion {
+  background-color: #eee;
+  color: #444;
+  padding: 15px;
+  cursor: pointer;
+  width: 97%;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.4s;
 }
-.input{
-	width: 300px;
-	height: 30px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+
+.accordion.active, .accordion:hover {
+  background-color: #ddd;
 }
-.submit{
-	padding: 7px;
-	background-color: #FF2424;
-	margin-right: 70px;
-	margin-bottom: 20px;
+.box {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 5px;
+  border-radius: 10px;
 }
-.required{
-	color: red;
+.text {
+  width: 95%;
+  padding: 0 20px;
+  background-color: white;
+  display: none;
 }
-.err{
-	padding-left: 20px;
-	color: red;
+.accordion:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
 }

@@ -1,0 +1,47 @@
+
+#header{
+	width: 100%;
+	height: auto;
+	background-color: red;
+}
+#menu{
+	background-color: yellow;
+	height: auto;
+	width: auto;
+}
+#headmenu{ 
+	padding-left: 0px;
+	height: 100px;
+	width: 50%;
+	margin:0 auto;
+	font-size: 20px;
+	list-style: none;
+}
+#headmenu>li{
+	padding: 0px;
+	float: left;
+	margin-left: 20px;
+}
+#contents{
+	height: auto;
+	width: 100%;
+	background-color: blue;
+}
+#footer{
+	height: auto;
+	width: 100%;
+	background-color: green;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#contents{
+	width: 100%;
+	height: auto;
+}
+#ct_1{
+	width: 100%;
+	height: auto;
+	background-image: url(responvise-practice-20190618T090039Z-001/responvise-practice/img/8497653947_ca11f07600_o-1700x450.jpg);
+}

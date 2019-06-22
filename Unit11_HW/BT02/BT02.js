@@ -1,26 +1,44 @@
-var KichThuoc = document.getElementsByClassName("slide")[0].clientWidth;
-var ChuyenSlide = document.getElementsByClassName("chuyen-slide")[0];
-var Img = ChuyenSlide.getElementsByTagName("img");
-var Max = KichThuoc * Img.length;
-Max -= KichThuoc;
-var Chuyen = 0;
-function Next(){
-	if(Chuyen < Max){
-		Chuyen += KichThuoc;
-	} 
-	else {
-		Chuyen = 0;
-	}
-	ChuyenSlide.style.marginLeft = '-' + Chuyen + 'px';
+var myNodelist = document.getElementsByTagName("LI");
+for (var i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
 }
-
-function Prev(){
-	if(Chuyen == 0){
-		Chuyen = Max;	
-	} 
-	else Chuyen -= KichThuoc;
-	ChuyenSlide.style.marginLeft = '-' + Chuyen + 'px';
+var close = document.getElementsByClassName("close");
+for (var i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
 }
-setInterval(function(){
-	Next();
-}, 1000);
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("Chưa nhập nội dung!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
