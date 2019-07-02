@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.jumbotron{
+	border-radius: 0;
+	color: white;
+	text-align: center;
+}
+#goTop{
+    display:none;
+    width:55px;
+    height:55px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    line-height: 55px;
+    color: #ccc;
+    font-size: 35px;
+    opacity: 0.5;
+}
+a:hover{
+	text-decoration: none;
+}
